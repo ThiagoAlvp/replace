@@ -176,7 +176,7 @@
         $(".card-livros").addClass("hidden");
 
         $.ajax({
-          url: "http://localhost:5001/api/Book",
+          url: "https://librarymanagement.azurewebsites.net/api/Book",
           type: "GET",
           data: {
             isbn: valor
